@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://fonts.google.com/specimen/Manrope" rel="stylesheet" />
+    <link rel="font" href="https://fonts.google.com/specimen/Manrope" />
+    <title>Advice generator app</title>
+   
+    </style>
+  </head>
+  <body>
+    <main class="advice-container">
+      <section class="advice-count">Advice # <span id="number"></span></section>
+      <section id="advice" class="advice"></section>
+
+      <section class="divider">
+        <div></div>
+        <span></span>
+        <span></span>
+        <div></div>
+      </section>
+      <button class="load-button" onclick="loadAdvice()">
+        <img src="./images/icon-dice.svg" />
+      </button>
+    </main>
+  </body>
+  <script src="index.js"></script>
+</html>
